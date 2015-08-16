@@ -46,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8DD5AB741B804090000E6060 /* ideacatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ideacatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD5AB741B804090000E6060 /* 灵感笔记.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "灵感笔记.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD5AB781B804090000E6060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DD5AB791B804090000E6060 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DD5AB7B1B804090000E6060 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		8DD5AB751B804090000E6060 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DD5AB741B804090000E6060 /* ideacatcher.app */,
+				8DD5AB741B804090000E6060 /* 灵感笔记.app */,
 				8DD5AB8D1B804090000E6060 /* ideacatcherTests.xctest */,
 			);
 			name = Products;
@@ -201,7 +201,7 @@
 			);
 			name = ideacatcher;
 			productName = ideacatcher;
-			productReference = 8DD5AB741B804090000E6060 /* ideacatcher.app */;
+			productReference = 8DD5AB741B804090000E6060 /* 灵感笔记.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8DD5AB8C1B804090000E6060 /* ideacatcherTests */ = {
@@ -228,6 +228,7 @@
 		8DD5AB6C1B804090000E6060 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SD;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = softwisdom;
 				TargetAttributes = {
@@ -383,9 +384,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "灵感笔记";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -420,8 +422,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "灵感笔记";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -433,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ideacatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "灵感笔记";
 			};
 			name = Debug;
 		};
@@ -443,7 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ideacatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "灵感笔记";
 			};
 			name = Release;
 		};
@@ -500,6 +503,7 @@
 				8DD5AB991B804090000E6060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DD5AB9A1B804090000E6060 /* Build configuration list for PBXNativeTarget "ideacatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +512,7 @@
 				8DD5AB9C1B804090000E6060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
